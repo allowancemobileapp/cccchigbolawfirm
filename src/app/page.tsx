@@ -24,7 +24,6 @@ import {
 import { Section } from '@/components/section';
 import { Heading } from '@/components/ui/heading';
 import { ArrowRight } from 'lucide-react';
-import LegalCommentaryGenerator from '@/components/legal-commentary-generator';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export default function Home() {
@@ -178,10 +177,6 @@ export default function Home() {
             <Link href="/publications">View All Publications</Link>
           </Button>
         </div>
-      </Section>
-
-      <Section id="ai-commentary" className="bg-primary/5">
-        <LegalCommentaryGenerator />
       </Section>
     </>
   );

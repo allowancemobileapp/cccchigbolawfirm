@@ -1,46 +1,6 @@
 'use server';
 
-import { generateLegalCommentary } from '@/ai/flows/generate-legal-commentary';
-import { commentarySchema, contactFormSchema } from '@/lib/schemas';
-import { revalidatePath } from 'next/cache';
-
-// AI Commentary Generator Action
-type CommentaryState = {
-  message: string;
-  errors?: {
-    topic?: string[];
-    style?: string[];
-  };
-};
-
-export async function generateCommentaryAction(
-  prevState: CommentaryState,
-  formData: FormData
-): Promise<CommentaryState> {
-  const validatedFields = commentarySchema.safeParse({
-    topic: formData.get('topic'),
-    style: formData.get('style'),
-  });
-
-  if (!validatedFields.success) {
-    return {
-      message: 'Invalid form data.',
-      errors: validatedFields.error.flatten().fieldErrors,
-    };
-  }
-
-  try {
-    const { commentary } = await generateLegalCommentary({
-      topic: validatedFields.data.topic,
-      style: validatedFields.data.style,
-    });
-    revalidatePath('/');
-    return { message: commentary };
-  } catch (error) {
-    return { message: 'Error: Failed to generate commentary. Please try again.' };
-  }
-}
-
+import { contactFormSchema } from '@/lib/schemas';
 
 // Contact Form Action
 type ContactFormState = {

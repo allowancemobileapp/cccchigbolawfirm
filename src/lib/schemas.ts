@@ -6,8 +6,3 @@ export const contactFormSchema = z.object({
   phone: z.string().optional(),
   message: z.string().min(10, { message: 'Message must be at least 10 characters.' }),
 });
-
-export const commentarySchema = z.object({
-  topic: z.string().min(10, 'Topic must be at least 10 characters long.'),
-  style: z.string(),
-});
