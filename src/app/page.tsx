@@ -31,7 +31,7 @@ export default function Home() {
 
   return (
     <>
-      <Section className="relative min-h-[60vh] md:min-h-[80vh] flex items-center text-white py-20 md:py-32 -mt-20">
+      <Section className="relative min-h-[60vh] md:min-h-[80vh] flex items-center py-20 md:py-32 -mt-20">
         {heroImage && (
           <Image
             src={heroImage.imageUrl}
@@ -42,13 +42,13 @@ export default function Home() {
             data-ai-hint={heroImage.imageHint}
           />
         )}
-        <div className="absolute inset-0 bg-primary/70 -z-10"></div>
+        <div className="absolute inset-0 bg-background/70 -z-10"></div>
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center md:text-left">
           <div className="max-w-3xl">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-headline !leading-tight text-white">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-headline !leading-tight text-primary">
               Professor Clement C. Chigbo
             </h1>
-            <p className="mt-4 text-lg md:text-xl text-white/90">
+            <p className="mt-4 text-lg md:text-xl text-primary/90">
               Barrister, Solicitor & Associate Professor of Law. Expert counsel
               in Property & Conveyancing, Corporate Law, and International
               Arbitration.
