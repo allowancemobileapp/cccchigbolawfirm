@@ -42,7 +42,7 @@ export default function ContactPage() {
                     <Mail className="h-6 w-6 text-accent mt-1"/>
                     <div>
                         <h4 className="font-semibold">Email</h4>
-                        <a href="mailto:contact@lexprofile.com" className="text-muted-foreground hover:text-primary">contact@lexprofile.com</a>
+                        <a href="mailto:contact@cccchigbolaw.com" className="text-muted-foreground hover:text-primary">contact@cccchigbolaw.com</a>
                     </div>
                 </div>
                 <div className="flex items-start gap-4">
