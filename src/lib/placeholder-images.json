@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "hero-background",
-      "description": "Architectural columns of a courthouse",
+      "description": "A modern and bright law office library",
       "imageUrl": "https://picsum.photos/seed/hero/1920/1080",
-      "imageHint": "courthouse columns"
+      "imageHint": "law library"
     },
     {
       "id": "publication-1",
