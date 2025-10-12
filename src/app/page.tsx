@@ -45,7 +45,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-primary/80 -z-10"></div>
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center md:text-left">
           <div className="max-w-3xl">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold !leading-tight text-white">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-headline !leading-tight text-white">
               Professor Clement C. Chigbo
             </h1>
             <p className="mt-4 text-lg md:text-xl text-white/90">
@@ -57,7 +57,7 @@ export default function Home() {
               <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">
                 <Link href="/contact">Request a Consultation</Link>
               </Button>
-              <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
+              <Button asChild size="lg" variant="secondary">
                 <Link href="/publications">View Publications</Link>
               </Button>
             </div>
