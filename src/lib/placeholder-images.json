@@ -1,3 +1,64 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "Architectural columns of a courthouse",
+      "imageUrl": "https://picsum.photos/seed/hero/1920/1080",
+      "imageHint": "courthouse columns"
+    },
+    {
+      "id": "publication-1",
+      "description": "Book cover for Company Law and Practice in Nigeria",
+      "imageUrl": "https://picsum.photos/seed/pub1/400/600",
+      "imageHint": "law book"
+    },
+    {
+      "id": "publication-2",
+      "description": "Book cover for Land Law",
+      "imageUrl": "https://picsum.photos/seed/pub2/400/600",
+      "imageHint": "law book"
+    },
+    {
+      "id": "publication-3",
+      "description": "Book cover for The Modern Law of Torts",
+      "imageUrl": "https://picsum.photos/seed/pub3/400/600",
+      "imageHint": "law book"
+    },
+    {
+      "id": "practice-property",
+      "description": "A modern building representing property law",
+      "imageUrl": "https://picsum.photos/seed/prop/800/600",
+      "imageHint": "modern building"
+    },
+    {
+      "id": "practice-corporate",
+      "description": "Skyscrapers in a business district",
+      "imageUrl": "https://picsum.photos/seed/corp/800/600",
+      "imageHint": "city skyscrapers"
+    },
+    {
+      "id": "practice-arbitration",
+      "description": "Two people shaking hands over a desk",
+      "imageUrl": "https://picsum.photos/seed/arb/800/600",
+      "imageHint": "business handshake"
+    },
+    {
+      "id": "practice-immigration",
+      "description": "An airport departure board",
+      "imageUrl": "https://picsum.photos/seed/imm/800/600",
+      "imageHint": "airport board"
+    },
+    {
+      "id": "about-page-hero",
+      "description": "A library with many books",
+      "imageUrl": "https://picsum.photos/seed/about/1200/600",
+      "imageHint": "library books"
+    },
+    {
+      "id": "clients-hero",
+      "description": "A view of a city skyline from an office window",
+      "imageUrl": "https://picsum.photos/seed/clients/1200/600",
+      "imageHint": "city office"
+    }
+  ]
 }
