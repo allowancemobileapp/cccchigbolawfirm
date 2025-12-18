@@ -111,6 +111,24 @@ export const publications: Publication[] = [
     isbn: '978-5432109876',
     downloadUrl: 'https://www.researchgate.net/publication/333681752_The_Modern_Law_of_Torts_A_Kaleidoscopic_Perspective_A_study_guide_to_the_Law_of_Torts',
   },
+  {
+    id: '4',
+    slug: 'legal-article-1',
+    title: 'Legal Article on Nigerian Law',
+    year: 2015,
+    summary: 'An insightful article on a specific aspect of Nigerian law. Download to read more.',
+    coverImage: 'publication-article',
+    downloadUrl: 'https://crwwlgwjdclhvwqwspoa.supabase.co/storage/v1/object/public/cccchigbo/ajol-file-journals_549_articles_122514_submission_proof_122514-6469-336146-1-10-20150922.pdf',
+  },
+  {
+    id: '5',
+    slug: 'legal-article-2',
+    title: 'Article on Equitable Rights in Real Property',
+    year: 2018,
+    summary: 'An exploration of the role of equitable rights and interests in real property law.',
+    coverImage: 'publication-article',
+    downloadUrl: 'https://crwwlgwjdclhvwqwspoa.supabase.co/storage/v1/object/public/cccchigbo/victorakwara,+THE+ROLE+OF+EQUITABLE+RIGHTS+AND+INTERESTS+IN+REAL+PROPERTY+LAW.pdf',
+  },
 ];
 
 export const speakingEvents: SpeakingEvent[] = [
