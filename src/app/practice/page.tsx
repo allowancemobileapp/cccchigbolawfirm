@@ -7,7 +7,10 @@ import { practiceAreas } from '@/lib/data';
 
 export const metadata: Metadata = {
   title: 'Areas of Practice',
-  description: 'Explore the legal services and areas of practice offered by Professor Clement C. Chigbo, including Property & Conveyancing, Corporate & Commercial Law, and International Arbitration.',
+  description: 'Explore expert legal services including Property & Conveyancing, Corporate & Commercial Law, and International Arbitration.',
+  alternates: {
+    canonical: '/practice',
+  },
 };
 
 export default function PracticeAreasPage() {

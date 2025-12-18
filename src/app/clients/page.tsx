@@ -8,8 +8,11 @@ import { Card, CardDescription, CardHeader, CardTitle } from '@/components/ui/ca
 import { CheckCircle } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Clients',
-  description: 'An overview of the types of clients served, including corporations, foreign investors, and private individuals.',
+  title: 'Clientele',
+  description: 'Serving a diverse clientele including corporations, foreign investors, private individuals, and government agencies with tailored legal counsel.',
+  alternates: {
+    canonical: '/clients',
+  },
 };
 
 export default function ClientsPage() {

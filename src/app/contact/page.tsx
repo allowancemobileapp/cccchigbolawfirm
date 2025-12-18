@@ -6,7 +6,10 @@ import { Mail, Phone, MapPin } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Contact',
-  description: 'Contact Professor Clement C. Chigbo for consultations, speaking engagements, or publishing inquiries.',
+  description: 'Reach out for consultations, speaking engagements, or academic inquiries. Contact Professor Clement C. Chigbo via WhatsApp, email, or phone.',
+  alternates: {
+    canonical: '/contact',
+  },
 };
 
 export default function ContactPage() {

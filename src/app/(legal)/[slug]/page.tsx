@@ -24,6 +24,13 @@ export async function generateMetadata({ params }: LegalPageProps): Promise<Meta
   return {
     title: page.title,
     description: `Read the ${page.title} for Professor Clement C. Chigbo's website.`,
+    robots: {
+      index: false, // Legal pages are often boilerplate and not useful for SEO
+      follow: true,
+    },
+    alternates: {
+      canonical: `/${params.slug}`,
+    },
   };
 }
 

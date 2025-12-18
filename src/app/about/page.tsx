@@ -10,7 +10,10 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 export const metadata: Metadata = {
   title: 'About Professor Clement C. Chigbo',
-  description: 'Learn about the biography, education, and academic profile of Professor Clement C. Chigbo.',
+  description: "Explore the biography, qualifications, and distinguished career of Professor Clement C. Chigbo, a multi-jurisdictional lawyer and academic.",
+  alternates: {
+    canonical: '/about',
+  },
 };
 
 export default function AboutPage() {

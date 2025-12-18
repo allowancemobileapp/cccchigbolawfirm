@@ -17,7 +17,11 @@ export async function generateStaticParams() {
   }));
 }
 
-export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+type PracticeAreaDetailPageProps = {
+  params: { slug: string };
+};
+
+export async function generateMetadata({ params }: PracticeAreaDetailPageProps): Promise<Metadata> {
   const area = practiceAreas.find((p) => p.slug === params.slug);
   if (!area) {
     return {
@@ -27,10 +31,17 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   return {
     title: area.title,
     description: area.summary,
+    alternates: {
+      canonical: `/practice/${area.slug}`,
+    },
+    openGraph: {
+      title: area.title,
+      description: area.summary,
+    }
   };
 }
 
-export default function PracticeAreaDetailPage({ params }: { params: { slug: string } }) {
+export default function PracticeAreaDetailPage({ params }: PracticeAreaDetailPageProps) {
   const area = practiceAreas.find((p) => p.slug === params.slug);
 
   if (!area) {

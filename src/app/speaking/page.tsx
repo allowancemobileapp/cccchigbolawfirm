@@ -6,8 +6,11 @@ import { speakingEvents } from '@/lib/data';
 import { Calendar, MapPin } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Speaking Engagements',
-  description: 'A list of speaking engagements, workshops, and media appearances by Professor Clement C. Chigbo.',
+  title: 'Speaking Engagements & Media',
+  description: 'Find a list of past and upcoming speaking engagements, workshops, and media appearances by Professor Clement C. Chigbo.',
+  alternates: {
+    canonical: '/speaking',
+  },
 };
 
 export default function SpeakingPage() {

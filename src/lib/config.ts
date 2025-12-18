@@ -1,7 +1,8 @@
 export const siteConfig = {
-  name: 'C C C Chigbo Law Firm | Prof. Clement C. Chigbo',
+  name: 'Professor Clement C. Chigbo — Barrister, Solicitor & Associate Professor of Law',
+  baseTitle: 'Professor Clement C. Chigbo — Barrister & Solicitor',
   description:
-    'Professor Clement C. Chigbo is a multi-jurisdictional lawyer and academic. Expert counsel in Property & Conveyancing, Corporate & Commercial Law, and International Arbitration.',
+    "Official website of Professor Clement C. Chigbo, a multi-jurisdictional Barrister, Solicitor of England & Wales, and Associate Professor of Law offering expert legal services, publications, and academic insight.",
   url: 'https://cccchigbolaw.example.com',
   ogImage: 'https://cccchigbolaw.example.com/og.jpg',
   links: {
