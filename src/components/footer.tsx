@@ -51,8 +51,8 @@ export function Footer() {
             <address className="mt-4 space-y-2 text-sm not-italic text-primary-foreground/70">
               <p>123 Law Street, Legal District</p>
               <p>Lagos, Nigeria</p>
-              <p>Email: <a href="mailto:contact@cccchigbolaw.com" className="hover:text-primary-foreground hover:underline">contact@cccchigbolaw.com</a></p>
-              <p>Phone: +234 123 456 7890</p>
+              <p>Email: <a href="mailto:clementchigbo@abuad.edu.ng" className="hover:text-primary-foreground hover:underline">clementchigbo@abuad.edu.ng</a></p>
+              <p>Phone: +234 813 478 3985</p>
             </address>
           </div>
 

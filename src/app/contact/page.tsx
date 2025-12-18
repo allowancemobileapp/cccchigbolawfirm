@@ -42,14 +42,16 @@ export default function ContactPage() {
                     <Mail className="h-6 w-6 text-accent mt-1"/>
                     <div>
                         <h4 className="font-semibold">Email</h4>
-                        <a href="mailto:contact@cccchigbolaw.com" className="text-muted-foreground hover:text-primary">contact@cccchigbolaw.com</a>
+                        <a href="mailto:clementchigbo@abuad.edu.ng" className="block text-muted-foreground hover:text-primary">clementchigbo@abuad.edu.ng</a>
+                        <a href="mailto:clementcchigbo@gmail.com" className="block text-muted-foreground hover:text-primary">clementcchigbo@gmail.com</a>
                     </div>
                 </div>
                 <div className="flex items-start gap-4">
                     <Phone className="h-6 w-6 text-accent mt-1"/>
                     <div>
                         <h4 className="font-semibold">Phone</h4>
-                        <a href="tel:+2341234567890" className="text-muted-foreground hover:text-primary">+234 123 456 7890</a>
+                        <a href="tel:+2348134783985" className="block text-muted-foreground hover:text-primary">+234 813 478 3985</a>
+                        <a href="tel:+2348073104899" className="block text-muted-foreground hover:text-primary">+234 807 310 4899</a>
                     </div>
                 </div>
             </div>
