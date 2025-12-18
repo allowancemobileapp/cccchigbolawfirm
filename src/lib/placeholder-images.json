@@ -3,61 +3,61 @@
     {
       "id": "hero-background",
       "description": "A modern and bright law office library",
-      "imageUrl": "https://picsum.photos/seed/hero/1920/1080",
+      "imageUrl": "https://images.unsplash.com/photo-1508107536691-b1449928187d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxsYXclMjBsaWJyYXJ5fGVufDB8fHx8MTc2NjA2MDY1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "law library"
     },
     {
       "id": "publication-1",
       "description": "Book cover for Company Law and Practice in Nigeria",
-      "imageUrl": "https://picsum.photos/seed/pub1/400/600",
+      "imageUrl": "https://africanbookscollective.com/wp-content/uploads/2025/04/cover_preview-4108.jpeg",
       "imageHint": "law book"
     },
     {
       "id": "publication-2",
       "description": "Book cover for Land Law",
-      "imageUrl": "https://picsum.photos/seed/pub2/400/600",
+      "imageUrl": "https://m.media-amazon.com/images/I/51W89b9Qe1L.jpg",
       "imageHint": "law book"
     },
     {
       "id": "publication-3",
       "description": "Book cover for The Modern Law of Torts",
-      "imageUrl": "https://picsum.photos/seed/pub3/400/600",
+      "imageUrl": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxsYXclMjBib29rfGVufDB8fHx8MTc2NTk5MzU5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "law book"
     },
     {
       "id": "practice-property",
       "description": "A modern building representing property law",
-      "imageUrl": "https://picsum.photos/seed/prop/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1555238920-7a6bea18473b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtb2Rlcm4lMjBidWlsZGluZ3xlbnwwfHx8fDE3NjU5ODc4MzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "modern building"
     },
     {
       "id": "practice-corporate",
       "description": "Skyscrapers in a business district",
-      "imageUrl": "https://picsum.photos/seed/corp/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1703319961241-c9296db91e72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaXR5JTIwc2t5c2NyYXBlcnN8ZW58MHx8fHwxNzY2MDYwNjU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "city skyscrapers"
     },
     {
       "id": "practice-arbitration",
       "description": "Two people shaking hands over a desk",
-      "imageUrl": "https://picsum.photos/seed/arb/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxidXNpbmVzcyUyMGhhbmRzaGFrZXxlbnwwfHx8fDE3NjU5NTM3ODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "business handshake"
     },
     {
       "id": "practice-immigration",
       "description": "An airport departure board",
-      "imageUrl": "https://picsum.photos/seed/imm/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1595346142225-9d396f8f42f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhaXJwb3J0JTIwYm9hcmR8ZW58MHx8fHwxNzY2MDYwNjU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "airport board"
     },
     {
       "id": "about-page-hero",
       "description": "A library with many books",
-      "imageUrl": "https://picsum.photos/seed/about/1200/600",
+      "imageUrl": "https://images.unsplash.com/photo-1579370318443-8da816457e3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxsaWJyYXJ5JTIwYm9va3N8ZW58MHx8fHwxNzY1OTgyNzY2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "library books"
     },
     {
       "id": "clients-hero",
       "description": "A view of a city skyline from an office window",
-      "imageUrl": "https://picsum.photos/seed/clients/1200/600",
+      "imageUrl": "https://images.unsplash.com/photo-1714321238458-7ee4dee09d82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaXR5JTIwb2ZmaWNlfGVufDB8fHx8MTc2NjA0ODIxNHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "city office"
     }
   ]
