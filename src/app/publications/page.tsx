@@ -10,7 +10,7 @@ import { Input } from '@/components/ui/input';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Button } from '@/components/ui/button';
-import { Download } from 'lucide-react';
+import { BookUp } from 'lucide-react';
 
 export default function PublicationsPage() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -84,12 +84,12 @@ export default function PublicationsPage() {
               <CardFooter>
                 {pub.downloadUrl ? (
                   <Button asChild className="w-full">
-                    <a href={pub.downloadUrl} download>
-                      <Download className="mr-2 h-4 w-4"/> Download
+                    <a href={pub.downloadUrl} target="_blank" rel="noopener noreferrer">
+                      <BookUp className="mr-2 h-4 w-4"/> View Publication
                     </a>
                   </Button>
                 ) : (
-                  <Button disabled className="w-full">Download Unavailable</Button>
+                  <Button disabled className="w-full">Unavailable</Button>
                 )}
               </CardFooter>
             </Card>

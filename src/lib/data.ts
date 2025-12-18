@@ -89,6 +89,7 @@ export const publications: Publication[] = [
     summary: 'A comprehensive guide to the principles and practice of company law in Nigeria.',
     coverImage: 'publication-1',
     isbn: '978-1234567890',
+    downloadUrl: 'https://africanbookscollective.com/books/company-law-and-practice-in-nigeria/',
   },
   {
     id: '2',
@@ -98,6 +99,7 @@ export const publications: Publication[] = [
     summary: 'An in-depth analysis of land law, covering conveyancing, wills, and estate administration.',
     coverImage: 'publication-2',
     isbn: '978-0987654321',
+    downloadUrl: 'https://www.amazon.es/Practical-Guide-Conveyancing-Probate-Administration/dp/141968339X',
   },
   {
     id: '3',
@@ -107,6 +109,7 @@ export const publications: Publication[] = [
     summary: 'A modern take on tort law, exploring its various facets from a kaleidoscopic perspective.',
     coverImage: 'publication-3',
     isbn: '978-5432109876',
+    downloadUrl: 'https://www.researchgate.net/publication/333681752_The_Modern_Law_of_Torts_A_Kaleidoscopic_Perspective_A_study_guide_to_the_Law_of_Torts',
   },
 ];
 
