@@ -1,34 +1,17 @@
 'use client';
 
-import { useEffect, useActionState } from 'react';
-import { useFormStatus } from 'react-dom';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
-import { useToast } from '@/hooks/use-toast';
-import { submitContactFormAction } from '@/app/actions';
 import { contactFormSchema } from '@/lib/schemas';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { Loader2 } from 'lucide-react';
-
-function SubmitButton() {
-  const { pending } = useFormStatus();
-  return (
-    <Button type="submit" disabled={pending} className="w-full">
-      {pending && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
-      Send Message
-    </Button>
-  );
-}
+import { Send } from 'lucide-react';
 
 export function ContactForm() {
-  const [state, formAction] = useActionState(submitContactFormAction, { message: '', success: false });
-  const { toast } = useToast();
-
   const form = useForm<z.infer<typeof contactFormSchema>>({
     resolver: zodResolver(contactFormSchema),
     defaultValues: {
@@ -39,33 +22,23 @@ export function ContactForm() {
     },
   });
 
-  useEffect(() => {
-    if (state.message) {
-      if (state.success) {
-        toast({
-          title: 'Success!',
-          description: state.message,
-        });
-        form.reset();
-      } else {
-        toast({
-          title: 'Error',
-          description: state.message,
-          variant: 'destructive',
-        });
-      }
-    }
-  }, [state, toast, form]);
+  function onSubmit(values: z.infer<typeof contactFormSchema>) {
+    const whatsAppNumber = '2348073104899';
+    const messageBody = `Hello, my name is ${values.name}.%0A%0A${values.message}%0A%0AYou can reach me at: ${values.email}${values.phone ? ` or ${values.phone}`: ''}`;
+    const url = `https://wa.me/${whatsAppNumber}?text=${messageBody}`;
+    window.open(url, '_blank');
+    form.reset();
+  }
 
   return (
     <Card>
       <CardHeader>
         <CardTitle>Send a Message</CardTitle>
-        <CardDescription>Fill out the form below and we will get back to you as soon as possible.</CardDescription>
+        <CardDescription>Fill out the form below to start a WhatsApp conversation. We will get back to you as soon as possible.</CardDescription>
       </CardHeader>
       <CardContent>
         <Form {...form}>
-          <form action={formAction} className="space-y-6">
+          <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
             <FormField
               control={form.control}
               name="name"
@@ -118,7 +91,10 @@ export function ContactForm() {
                 </FormItem>
               )}
             />
-            <SubmitButton />
+            <Button type="submit" className="w-full">
+              <Send className="mr-2 h-4 w-4" />
+              Send via WhatsApp
+            </Button>
           </form>
         </Form>
       </CardContent>

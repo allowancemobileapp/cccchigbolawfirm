@@ -2,7 +2,8 @@
 
 import { contactFormSchema } from '@/lib/schemas';
 
-// Contact Form Action
+// This action is no longer used by the contact form, 
+// but is kept here for potential future use.
 type ContactFormState = {
   message: string;
   success: boolean;
